@@ -1,0 +1,41 @@
+body{
+  margin: 0;
+  background-image: linear-gradient(to bottom right , rgb(6, 6, 53),rgb(15, 101, 130) );
+  background-repeat: no repeat;
+  background-size: 100% 100%;
+
+}
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  
+  box-sizing: border-box;
+}
+
+.login-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login-content > img {
+  width: 200px;
+  object-fit: contain;
+  margin: 20px;
+}
+
+.login-content > button {
+  padding: 10px;
+  margin: 50px 0px;
+  background-color: beige;
+  color: purple;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  letter-spacing: 1.1px;
+  font-family: monospace;
+  cursor: pointer;
+}
